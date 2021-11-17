@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="validate.js"></script>
+
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+  <div class="fixed">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom" style="background-color: #1d3557;">
+      <div class="container-fluid menu_bar" style="background-color: #1d3557;">
+        <button class="navbar-toggler" style="color: #1d3557;" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <img src="assets/images/menu.png" width="140%" height="30px">
+        </button>
+        <div class="collapse navbar-collapse show" id="collapsibleNavbar">
+          <ul class="navbar-nav menu_text text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About Me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Internship">Internship</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+  </div>
+ 
+
+  <header id="home" class="home">
+
+    <img src="assets/images/Group 1.png" class="home-img">
+    <div>
+      <h1 class="top-liner">Let's make a website and make our <span class="color_yellow">India</span> more digital.</h1>
+    </div>
+
+  </header>
+
+  <div id="About Me" class="space_box">
+
+  </div>
+
+  <section class="container-fluid">
+    <h1 class="heading">About me</h1>
+    <div class="row">
+      <div class="description col-sm-7">
+        <h1>Hello, My name is <span class="color_yellow">Shah Harsh</span></h1>
+        <p>Currently I am pursuing Computer Engineering from Silver Oak University. I am very much interested in
+          exploring
+          new things in computer or we can say digital world.
+        </p>
+        <h3 style="color: #1d3557; font-weight: bold;" class="margin-left">Skills</h3>
+        <label for="progress_bar" class="margin-left">HTML</label>
+        <div class="progress margin-left">
+          <div class="progress-bar progress-bar-success bg-warning progress-bar-striped active html_anim"
+            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+          </div>
+        </div>
+        <label for="progress_bar" class="margin-left">CSS</label>
+        <div class="progress margin-left">
+          <div class="progress-bar progress-bar-success bg-warning progress-bar-striped active css_anim"
+            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+          </div>
+        </div>
+        <label for="progress_bar" class="margin-left">PHP</label>
+        <div class="progress margin-left">
+          <div class="progress-bar progress-bar-success bg-warning progress-bar-striped active php_anim"
+            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+          </div>
+        </div>
+        <label for="progress_bar" class="margin-left">Java</label>
+        <div class="progress margin-left">
+          <div class="progress-bar progress-bar-success bg-warning progress-bar-striped active java_anim"
+            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="60" style="width:90%">
+          </div>
+        </div>
+      </div>
+      <div class="about col-sm-5">
+        <img src="assets/images/person.png" width="70%" height="400px" alt="Profile Picture">
+      </div>
+    </div>
+  </section>
+
+  <div id="Internship" class="space_box">
+
+  </div>
+
+  <section>
+    <h1 class="heading">Internship</h1>
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="intern1 col-sm-5">
+        <a href="http://brainybeam.com/" target="_blank">
+          <img src="assets/images/brainybeam.png" width="70%" height="150px" alt="BrainyBeam Logo" class="intern_img1">
+        </a>
+      </div>
+      <div class="intern-des1 col-sm-7">
+        <h3 class="margin-left">BrainyBeam Technologies Private Limited</h3>
+        <h6 class="margin-left">Duration: 26<sup>th</sup> May - 15<sup>th</sup> June</h6>
+        <p class="margin-left">Learn about some basic of Android & Flutter. Work on making E-commerce vegetable app.<br>
+          Learn about various libraries and API concept.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="intern2 col-sm-5">
+        <a href="http://infolabz.in/" target="_blank">
+          <img src="assets/images/infolabz.jpg" width="50%" height="150px" alt="Infolabz Logo" class="intern_img2">
+        </a>
+      </div>
+      <div class="intern-des2 col-sm-7">
+        <h3 class="margin-left">Infolabz</h3>
+        <h6 class="margin-left">Duration: 24<sup>th</sup> May - 8<sup>th</sup> June</h6>
+        <p class="margin-left">Learn about some basic of Android & Flutter. Work on making E-commerce vegetable app.<br>
+          Learn about various libraries and API concept.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <div id="projects" class="space_box">
+
+  </div>
+
+  <section>
+    <h1 class="heading">Projects</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="project_box">
+          <img src="assets/images/vaccine_project.jpeg" width="100%" height="350px" class="project_img">
+          <div class="overlay">
+            <h1>Vaccine Slot Finder</h1>
+            <a href="https://github.com/SH-Harsh/Vaccine-Slot-Availability" target="_blank">
+              <img src="assets/images/github_logo.png" class="github_logo">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="project_box">
+          <img src="assets/images/todo_project.jpg" width="100%" height="350px" class="project_img">
+          <div class="overlay">
+            <h1>Todo App</h1>
+            <a href="https://github.com/SH-Harsh/Todo-App" target="_blank">
+              <img src="assets/images/github_logo.png" width="30%" height="90px" class="github_logo">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="project_box">
+          <img src="assets/images/portfolio_project.jpg" width="100%" height="350px" class="project_img">
+          <div class="overlay">
+            <h1>Portfolio</h1>
+            <a href="#"><img src="assets/images/github_logo.png" width="30%" height="90px" class="github_logo"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="form-horizontal" style="clear: both;" name="contact_form" onsubmit="myFunction()">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="fname">Name</label>
+        <div class="col-sm-15">
+          <input type="text" class="form-control" id="fname" placeholder="Enter your Name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email</label>
+        <div class="col-sm-15">
+          <input type="email" class="form-control" id="email" placeholder="Enter your E-mail" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="Subject">Subject</label>
+        <div class="col-sm-15">
+          <input type="text" class="form-control" id="Subject" placeholder="Enter your Subject" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Textarea1">Message</label>
+        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Enter your message" required></textarea>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <h1>Created by Harsh | 2021 All rights reserved</h1>
+  </footer>
+
+</body>
+
+</html>
