@@ -182,11 +182,18 @@ label {
     margin-top: 100px;
 }
 
-.form_box{
+.form_box {
+    width: 90%;
+    height: 30%;
+    color: white;
+}
+
+#contact {
     margin: 30px;
-    padding: 20px;
+    padding: 10px;
     background-color: #a8dadc;
 }
+
 
 label {
     color: #1d3557;
